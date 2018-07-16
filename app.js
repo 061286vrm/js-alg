@@ -12,3 +12,9 @@ var side_b=Math.random()*10+5;
 document.write("<p>Side_a="+side_a+ "</p><p>Side_b="+side_b+ "</p>");
 document.write("<p>Площадь прямоугольного треугольника"+side_a*side_b/2+"</p>")
 }
+function writeAlgoDemo3() {
+    var radius=Math.random()*10+5;
+    var square=Math.PI*radius*radius;
+    document.write("<p>Radius="+radius+"</p>");
+    document.write("<p>Площадь круга"+square+"</p");
+}
